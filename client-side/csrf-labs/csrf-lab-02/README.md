@@ -1,5 +1,5 @@
 # CSRF-Lab-02
-This is ![Link-Lab](https://portswigger.net/web-security/csrf/lab-token-validation-depends-on-request-method).
+This is [Link-Lab](https://portswigger.net/web-security/csrf/lab-token-validation-depends-on-request-method).
 <br />
 
 # Solve Lab-02

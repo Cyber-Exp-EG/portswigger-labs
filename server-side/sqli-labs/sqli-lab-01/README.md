@@ -1,5 +1,5 @@
 # SQLi-Lab-01
-This is ![Link-Lab](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
+This is [Link-Lab](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
 # Solve Lab-01
 display all products both released and unreleased.
 <br />
