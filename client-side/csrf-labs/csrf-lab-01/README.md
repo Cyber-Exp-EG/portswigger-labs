@@ -13,7 +13,7 @@ This is ![Link-Lab](https://portswigger.net/web-security/csrf/lab-no-defenses).
 
 ![step-2](screenshots/2.png)
 <br />
-3- Change the email the send request then appear error 302 to redirection.
+3- Change the email the send request then appear 302 status code redirection message.
 <br />
 
 ![step-3](screenshots/3.png)
