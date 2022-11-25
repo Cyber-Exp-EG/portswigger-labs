@@ -43,7 +43,7 @@ This is [Link-Lab](https://portswigger.net/web-security/csrf/lab-token-tied-to-n
 ![paraneter](screenshots/7.png)
 <br />
 
-7- set new parameter with request `Set-Cookie:%20csrfKey=btXVBTAjCrj1TIfFSratQWw2yim9B2Dp%3b%20SameSite=None`, until you send `csrf` with request.
+7- set new parameter with request `Set-Cookie:%20csrfKey=btXVBTAjCrj1TIfFSratQWw2yim9B2Dp%3b%20SameSite=None`, until you send `csrfKey` with request.
 <br />
 
 ![csrf](screenshots/8.png)
