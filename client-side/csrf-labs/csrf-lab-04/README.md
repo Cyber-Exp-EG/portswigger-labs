@@ -27,7 +27,7 @@ This is [Link-Lab](https://portswigger.net/web-security/csrf/lab-token-not-tied-
 ![csrf-modify](screenshots/4.png)
 <br />
 
-5- After doing the last steps, try login as `carlos/montoy`.
+5- After doing the last steps, try login as `carlos/montoya`.
 <br />
 
 ![login-again](screenshots/5.png)
